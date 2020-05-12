@@ -4,5 +4,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  return attendees.push(badge_maker)
+  var = attendees.push(badge_maker)
+  return var
 end
