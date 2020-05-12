@@ -3,6 +3,6 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(array)
-  array.push(badge_maker)
+def batch_badge_creator(attendees)
+  attendees.push(badge_maker)
 end
