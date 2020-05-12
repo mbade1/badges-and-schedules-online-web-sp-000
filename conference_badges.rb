@@ -24,7 +24,7 @@ end
 #     puts badge
 #   end
 #
-#   assign_rooms(speakers).each do |badg|
+#   assign_rooms(attendees).each do |badg|
 #     puts badg
 #   end
 # end
